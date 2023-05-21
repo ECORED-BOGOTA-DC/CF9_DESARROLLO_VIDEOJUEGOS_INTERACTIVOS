@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
       h1 Programación de inteligencia artificial
-    .row.justify-content-center
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -14,8 +14,8 @@
           )
           .bloque-texto-g__texto.p-5
             p.mb-0 Los desarrolladores de videojuegos viven preocupados por ofrecer juegos que contengan las mejores experiencias gráficas y una mayor inmersión en cada mecánica desarrollada. La inteligencia artificial en los videojuegos también juega un papel fundamental ya que permite tener grandes comportamientos de los jugadores NPC, haciendo que cada nivel de juego sea más atractivo.
-    p Unity 3D, al igual que muchos motores de desarrollo de videojuegos, posee una estructura bastante robusta que permite integrar de forma sencilla la inteligencia artificial a nuestros juegos. Para tener una visión general de la navegación en Unity, son necesarios los siguientes elementos:
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    p.mb-5(data-aos="fade-down") Unity 3D, al igual que muchos motores de desarrollo de videojuegos, posee una estructura bastante robusta que permite integrar de forma sencilla la inteligencia artificial a nuestros juegos. Para tener una visión general de la navegación en Unity, son necesarios los siguientes elementos:
+    .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-left")
       SlyderA(tipo="b")
         .row.justify-content-center 
           .col-lg-11
@@ -47,15 +47,13 @@
                 figure
                   img(src='@/assets/curso/tema5/4.png', alt='Texto que describa la imagen')   
                   figcaption Nota. Tomada de Unity Documentation. Manual Unity. Encontrando caminos. https://docs.unity3d.com/es/530/Manual/nav-InnerWorkings.html
-    .row.mt-5
-      .col-4
-        .row.align-items-center
-          .col-2
-            img(src='@/assets/curso/tema1/ico.svg', alt='Texto que describa la imagen')
-          .col-10
-            h4.mb-0 Agregar agente de navegación
-    p.mt-4 Estos son los pasos para agregar el agente de navegación:
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    .row.align-items-center.mb-4(data-aos="fade-down")
+      .col-auto.pe-0
+        img(src='@/assets/curso/tema1/ico.svg', style='width: 50px').m-auto
+      .col
+        h4.mb-0 Agregar agente de navegación
+    p.mt-4.mb-5(data-aos="fade-right") Estos son los pasos para agregar el agente de navegación:
+    .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-left")
       SlyderA(tipo="b")
         .row.justify-content-center 
           .col-lg-11
@@ -85,9 +83,9 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema5/7.png', alt='Texto que describa la imagen')   
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5(data-aos="fade-right")
       .col-lg-8
-        .tarjeta.color-primario.p-3.mb-5
+        .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema2/z.svg")
@@ -97,7 +95,7 @@
                   h3.mb-1 Programación de Inteligencia Artificial
                   p.text-small Para ampliar el tema sobre Programación de Inteligencia Artificial, consultar en el material complementario la página Unity Learn, el tema de Navigation Meshes.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://learn.unity.com/project/navigation-meshes" target="_blank")
                     span Enlace web
                     i.fas.fa-file-download                                          
 </template>
