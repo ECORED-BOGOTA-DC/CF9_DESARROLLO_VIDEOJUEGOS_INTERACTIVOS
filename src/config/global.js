@@ -136,7 +136,7 @@ export default {
     {
       tema: 'Programación de eventos de interfaz HUD',
       referencia:
-        'Unity Technologies. (2022). <em>IU Components. Unity Learn<em>.',
+        'Unity Technologies. (2022). <em>UI Components. Unity Learn<em>.',
       tipo: 'Página web',
       link: 'https://learn.unity.com/tutorial/ui-components',
     },
@@ -164,7 +164,7 @@ export default {
     {
       termino: '<em>Input</em>',
       significado:
-        'clase de Unity usado para detectar cuando el jugador interactúa con un dispositivo de entrada (teclado, mouse, joystick).',
+        'clase de Unity usado para detectar cuando el jugador interactúa con un dispositivo de entrada (teclado, <i>mouse</i>, <i>joystick</i>).',
     },
     {
       termino: 'Parámetro',
@@ -418,7 +418,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Lina Marcela Perez Manchego',
+          nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Validador de recursos digitales - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',

@@ -14,18 +14,18 @@
           )
           .bloque-texto-g__texto.p-5
             p.mb-0 En el diseño de las mecánicas del videojuego es necesario crear interacciones con el entorno, es en este punto donde los eventos ocurridos por condiciones físicas permiten a los jugadores recoger ítems de los niveles de juego, sufrir daño por pasar sobre zonas no permitidas, etc.
-    p.mb-5(data-aos="fade-down") Los motores de videojuegos permiten simular los comportamientos físicos del entorno real haciendo uso de diferentes componentes como rigibodies, materiales físicos, colisionadores etc., permitiendo que las mecánicas sean dinámicas y parecidas a la realidad.
+    p.mb-5(data-aos="fade-down") Los motores de videojuegos permiten simular los comportamientos físicos del entorno real haciendo uso de diferentes componentes como Rigibodies, materiales físicos, colisionadores etc., permitiendo que las mecánicas sean dinámicas y parecidas a la realidad.
     .row.align-items-center.mb-4(data-aos="fade-left")
       .col-auto.pe-0
         img(src='@/assets/curso/tema1/ico.svg', style='width: 50px').m-auto
       .col
-        h4.mb-0 Triggers    
-    p.mt-4(data-aos="fade-right") Los triggers son eventos que ocurren cuando los objetos de videojuego se entrelazan entre sí como se observa en la figura.
+        h4.mb-0 #[i Triggers]    
+    p.mt-4(data-aos="fade-right") Los #[i triggers] son eventos que ocurren cuando los objetos de videojuego se entrelazan entre sí como se observa en la figura.
     .row.justify-content-center.my-5(data-aos="fade-down")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           p.mb-0 #[b #[i Figura 10]]
-          p.mb-0 Trigger entre gameobjects
+          p.mb-0 Trigger entre GameObjects
         img(src='@/assets/curso/tema3/2.png', alt='Texto que describa la imagen')   
     .row.align-items-center.mb-4(data-aos="fade-left")
       .col-auto.pe-0
@@ -39,7 +39,7 @@
           p.mb-0 #[b #[i Figura 11]]
           p.mb-0 Collision
         img(src='@/assets/curso/tema3/3.png', alt='Texto que describa la imagen')
-    p.mt-4(data-aos="fade-right") Los tipos de colliders son:
+    p.mt-4(data-aos="fade-right") Los tipos de #[i colliders] son:
     .row.mb-5(data-aos="fade-left")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -48,7 +48,7 @@
           .tarjeta.color-acento-contenido
             .p-4
               h2.text-center Sphere Collider
-              p.text-center Este tipo de collider es muy usado en formas redondas.
+              p.text-center Este tipo de #[i collider] es muy usado en formas redondas.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -57,7 +57,7 @@
           .tarjeta.color-acento-contenido
             .p-4
               h2.text-center Box Collider
-              p.text-center Es empleado en formas cubicas, edificios, carretera, etc.
+              p.text-center Es empleado en formas cúbicas, edificios, carretera, etc.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
