@@ -20,7 +20,7 @@
       .col
         h4.mb-0 Canvas
     p.mt-4(data-aos="fade-right") Unity 3D en su conjunto de GameObject posee uno llamado Canvas que es un lienzo que permite organizar de forma detallada la interfaz de usuario. El Canvas trabaja con un componente adicional llamado el EventSystem el cual permite detectar los eventos que se ejecutan cuando el usuario interactúa con los elementos de la UI.
-    p Para agregar el Canvas a la escena hacer clic derecho sobre el panel de jerarquía y seleccionar la opción UI>Canvas.
+    p Para agregar el Canvas a la escena hacer clic derecho sobre el panel de jerarquía y seleccionar la opción UI -> Canvas.
     .row.justify-content-center.mt-4.mb-5(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
@@ -51,7 +51,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Interfaces de usuario responsivas 
     p(data-aos="fade-right") Las interfaces responsivas son aquellas que se ajustan de forma automática a cualquier resolución de pantalla. Unity 3D tiene una serie de elementos que permiten realizar este tipo de configuraciones en las interfaces de usuario, a saber:
-    h5(data-aos="fade-right") Elementos Rect Transformer:
+    h5(data-aos="fade-right") Elementos Rect Transform:
     p(data-aos="fade-right") Unity 3D tiene una serie de elementos que permiten realizar este tipo de configuraciones en las interfaces de usuario:
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-left")
       SlyderA(tipo="b")
@@ -59,7 +59,7 @@
           .col-lg-11
             .row.mt-5.mb-5
               .col-md-5.mb-4.mb-md-0
-                h4 Elementos Rect Transformer
+                h4 Elementos Rect Transform
                 p <strong>A. Pivot:</strong> controla el punto de origen el cual se usa como referencia para rotar, escalar y mover el control.
                 p <strong>B. Manipuladores:</strong> redimensionan el control seleccionado.
                 p <strong>C. Anchor:</strong> elemento usado para anclar el punto de creación de los controles de la UI.
@@ -71,13 +71,13 @@
           .col-lg-11
             .row 
               .col-md-9.mb-4.mb-md-0
-                h4 Elementos Rect Transformer
+                h4 Elementos Rect Transform
                 p Los manipuladores del punto de anclaje permiten cambiar de posición de forma automática el Anchor de cada uno de los controles de la UI.
               .col-md-3
                 figure
                   img(src='@/assets/curso/tema2/5.png', alt='Texto que describa la imagen')   
                   figcaption Anclajes
-    p.my-5(data-aos="fade-right") En este video se observa cómo funciona el componente Rect Transformer para manipular cada uno de los elementos del Canvas.
+    p.my-5(data-aos="fade-right") En este video se observa cómo funciona el componente Rect Transform para manipular cada uno de los elementos del Canvas.
     .row.justify-content-center(data-aos="fade-down")
       .col-lg-10
         .video

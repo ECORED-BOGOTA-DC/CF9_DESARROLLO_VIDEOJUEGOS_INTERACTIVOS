@@ -19,7 +19,7 @@
         img(src='@/assets/curso/tema1/ico.svg', style='width: 50px').m-auto
       .col
         h4.mb-0 Input Manager
-    p.mt-4(data-aos="fade-down") El Input Manager es una ventana especializada en el motor de desarrollo Unity 3D que permite definir los diferentes ejes (axes) que se encuentren asociados a las diferentes acciones del juego y/o personaje.
+    p.mt-4(data-aos="fade-down") El Input Manager es una ventana especializada en el motor de desarrollo Unity 3D que permite definir los diferentes ejes (#[i axes]) que se encuentren asociados a las diferentes acciones del juego o personaje.
     p.mb-5 El Input Manager en Unity 3D utiliza los siguientes tipos de controles:
     .tabla-b.color-acento-contenido.mb-5(data-aos="fade-left")
       .tabla-b__header
@@ -210,18 +210,18 @@
         img(src='@/assets/curso/tema1/ico.svg', style='width: 50px').m-auto
       .col
         h4.mb-0 Parámetros  
-    p.mt-3(data-aos="fade-right") Los parámetros en la máquina de estados finito representan una variable que permite controlar el cambio de un estado a otro haciendo uso de una transición. Los parámetros cuentan con cuatro tipos:
+    p.mt-3.mb-5(data-aos="fade-right") Los parámetros en la máquina de estados finito representan una variable que permite controlar el cambio de un estado a otro haciendo uso de una transición. Los parámetros cuentan con cuatro tipos:
     .row.justify-content-center(data-aos="fade-left")
-      .col-lg-2
+      .col-auto.mb-4.mb-lg-0
         .row.coloras.p-2
           h5.text-center.mb-0 Float
-      .col-lg-2
+      .col-auto.mb-4.mb-lg-0
         .row.coloras.p-2
           h5.text-center.mb-0 Int
-      .col-lg-2
+      .col-auto.mb-4.mb-lg-0
         .row.coloras.p-2
           h5.text-center.mb-0 Bool
-      .col-lg-2
+      .col-auto
         .row.coloras.p-2
           h5.text-center.mb-0 Trigger
     .row.justify-content-center.my-5(data-aos="fade-right")
