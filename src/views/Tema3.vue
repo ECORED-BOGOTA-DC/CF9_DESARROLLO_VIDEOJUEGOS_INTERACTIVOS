@@ -24,7 +24,7 @@
     .row.justify-content-center.my-5(data-aos="fade-down")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 10]]
+          p.mb-0 #[b Figura 10]
           p.mb-0 Trigger entre GameObjects
         img(src='@/assets/curso/tema3/2.png', alt='Texto que describa la imagen')   
     .row.align-items-center.mb-4(data-aos="fade-left")
@@ -36,7 +36,7 @@
     .row.justify-content-center.mt-5(data-aos="fade-down")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 11]]
+          p.mb-0 #[b Figura 11]
           p.mb-0 Collision
         img(src='@/assets/curso/tema3/3.png', alt='Texto que describa la imagen')
     p.mt-4(data-aos="fade-right") Los tipos de #[i colliders] son:
@@ -81,7 +81,7 @@
     .row.justify-content-center.mt-5(data-aos="fade-down")
       .col-lg-4
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 12]]
+          p.mb-0 #[b Figura 12]
           p.mb-0 Character controller
         img(src='@/assets/curso/tema3/4.png', alt='Texto que describa la imagen')         
     p.mt-4.mb-5(data-aos="fade-right") A través de los siguientes videos se explicará cómo controlar un personaje y aplicar animaciones:
@@ -114,7 +114,8 @@
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://learn.unity.com/project/catapult-physics-forces-and-energy" target="_blank")
                     span Enlace web
-                    i.fas.fa-file-download                        
+                    i.fas.fa-file-download
+
 </template>
 
 <script>

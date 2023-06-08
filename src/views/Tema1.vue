@@ -38,7 +38,7 @@
     .row.justify-content-center.mt-5(data-aos="fade-down")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 1]]
+          p.mb-0 #[b Figura 1]
           p.mb-0 Mapeados controles de juego
         img(src='@/assets/curso/tema1/2.png', alt='Texto que describa la imagen')
         figcaption.mt-3 Nota. Tomada de Vegas (s. f.). http://www.jvunity.weebly.com/uploads/4/7/6/0/47606749/controlmap.png
@@ -46,7 +46,7 @@
     .row.justify-content-center.mt-5(data-aos="fade-right")
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 2]]
+          p.mb-0 #[b Figura 2]
           p.mb-0  Input Manager Unity 3D
         img(src='@/assets/curso/tema1/3.png', alt='Texto que describa la imagen')
     p.mt-4.mb-5(data-aos="fade-down") En el siguiente video tutorial se observa la programación de personajes controlados por el usuario y la creación de un nuevo proyecto.
@@ -61,7 +61,7 @@
     .row.justify-content-center.mt-5(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 3]]
+          p.mb-0 #[b Figura 3]
           p.mb-0 Editor Unity 3D       
         img(src='@/assets/curso/tema1/4.png', alt='Texto que describa la imagen')
     .row.mt-4.bg1.align-items-center(data-aos="fade-down").mb-4
@@ -202,7 +202,7 @@
     .row.justify-content-center.my-5(data-aos="fade-right")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 4]]
+          p.mb-0 #[b Figura 4]
           p.mb-0 Estados de la FMS
         img(src='@/assets/curso/tema1/13.png', alt='Texto que describa la imagen')    
     .row.align-items-center.mb-4(data-aos="fade-down")
@@ -227,7 +227,7 @@
     .row.justify-content-center.my-5(data-aos="fade-right")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 5]]
+          p.mb-0 #[b Figura 5]
           p.mb-0 Parámetros FMS
         img(src='@/assets/curso/tema1/14.png', alt='Texto que describa la imagen')    
     .row.align-items-center.mb-4(data-aos="fade-down")
@@ -239,7 +239,7 @@
     .row.justify-content-center.my-5(data-aos="fade-right")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 6]]
+          p.mb-0 #[b Figura 6]
           p.mb-0 Transiciones FMS
         img(src='@/assets/curso/tema1/15.png', alt='Texto que describa la imagen')        
     .row.align-items-center.mb-4(data-aos="fade-down")
@@ -251,7 +251,7 @@
     .row.justify-content-center.mt-5(data-aos="fade-left")
       .col-lg-4
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 7]]
+          p.mb-0 #[b Figura 7]
           p.mb-0 Blend Tree Unity
         img(src='@/assets/curso/tema1/16.png', alt='Texto que describa la imagen')   
     p.mt-4.mb-5(data-aos="fade-right") En el video que sigue a continuación se observa cómo se trabaja con el árbol de mezclado o Blend Tree.

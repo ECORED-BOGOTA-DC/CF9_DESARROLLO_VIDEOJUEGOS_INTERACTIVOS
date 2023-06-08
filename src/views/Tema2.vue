@@ -24,7 +24,7 @@
     .row.justify-content-center.mt-4.mb-5(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 8]]
+          p.mb-0 #[b Figura 8]
           p.mb-0 Canvas
         img(src='@/assets/curso/tema2/2.png', alt='Texto que describa la imagen')   
     p.mt-4.mb-5(data-aos="fade-right") Para manipular y crear interfaces de usuario con Canvas, se invita a ver este video:
@@ -39,7 +39,7 @@
     .row.justify-content-center.mt-5(data-aos="fade-down")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 9]]
+          p.mb-0 #[b Figura 9]
           p.mb-0 Componentes Canvas
         img(src='@/assets/curso/tema2/3.png', alt='Texto que describa la imagen')   
     p.mt-5.mb-5(data-aos="fade-right") En el siguiente video se analizan cada uno de los componentes del Canvas.
@@ -153,7 +153,6 @@
                   a.boton.color-acento-botones(href="https://learn.unity.com/tutorial/ui-components" target="_blank")
                     span Enlace web
                     i.fas.fa-file-download
-          
 
 </template>
 
