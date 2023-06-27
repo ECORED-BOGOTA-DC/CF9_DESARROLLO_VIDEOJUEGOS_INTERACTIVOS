@@ -57,32 +57,31 @@
       SlyderA(tipo="b")
         .row.justify-content-center 
           .col-lg-11
-            .row.mt-5.mb-5
-              .col-md-4.mb-4.mb-md-0
+            .row
+              .col-12.mb-4
                 h4 Paso 1
                 p.mt-5 Seleccione el GameObjet que se va a utilizar como superficie de navegación y marque la opción Static en el panel Inspector.
-              .col-md-8
+              .col-12
                 figure
                   img(src='@/assets/curso/tema5/5.png', alt='Texto que describa la imagen')   
         .row.justify-content-center 
           .col-lg-11
-            .row.mt-5.mb-5
-              .col-md-4.mb-4.mb-md-0
+            .row.align-items-center
+              .col-lg-4
                 h4 Paso 2
                 p.mt-5 Ingrese al menú Windows>AI>Navigation.
-              .col-md-4
-              .col-md-4
+              .col-lg-8
                 figure
-                  img(src='@/assets/curso/tema5/6.png', alt='Texto que describa la imagen')   
+                  img(src='@/assets/curso/tema5/6.png', alt='Texto que describa la imagen', style="width: 380px").m-auto  
         .row.justify-content-center 
           .col-lg-11
-            .row.mt-5.mb-5
-              .col-md-8.mb-4.mb-md-0
+            .row.align-items-center
+              .col-lg-4.mb-4.mb-lg-0
                 h4 Paso 3
                 p.mt-5 Seleccione la pestaña Navigation y haga clic sobre la opción Bake y para finalizar haga clic sobre el botón Bake.
-              .col-md-4
+              .col-lg-8
                 figure
-                  img(src='@/assets/curso/tema5/7.png', alt='Texto que describa la imagen')   
+                  img(src='@/assets/curso/tema5/7.png', alt='Texto que describa la imagen', style="width: 400px").m-auto  
     .row.justify-content-center.mt-5(data-aos="fade-right")
       .col-lg-8
         .tarjeta.color-primario.p-3
