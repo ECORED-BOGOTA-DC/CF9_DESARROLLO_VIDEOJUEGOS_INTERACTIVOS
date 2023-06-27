@@ -202,8 +202,7 @@ export default {
     {
       referencia:
         'Colombiaaprende.edu.co (s. f). <em>Lección 1: ¿Qué es un algoritmo?</em> ',
-      link:
-        'https://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/curriculos_ex/n1g10_fproy/nivel1/programacion/unidad1/leccion1.html',
+      link: '',
     },
     {
       referencia: 'GameDevTraum. (2021). <em>Scripts en programación.</em> ',

@@ -13,7 +13,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/1.png')})`}"
           )
           .bloque-texto-g__texto.p-5
-            p.mb-0 La interfaz de usuario es uno de los principales elementos de los niveles de juego ya que por medio de esta, los usuarios pueden monitorear el comportamiento del nivel de juegos. Por ejemplo, pueden conocer cuánto tiempo les queda de juego, cuánto nivel de salud les queda, etc.
+            p.mb-0 La interfaz de usuario es uno de los principales elementos de los niveles de juego ya que, por medio de esta, los usuarios pueden monitorear el comportamiento del nivel de juegos. Por ejemplo, pueden conocer cuánto tiempo les queda de juego, cuánto nivel de salud les queda, etc.
     .row.align-items-center.mb-4(data-aos="fade-down")
       .col-auto.pe-0
         img(src='@/assets/curso/tema1/ico.svg', style='width: 50px').m-auto
@@ -85,7 +85,10 @@
     separador     
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Eventos  
-    p(data-aos="fade-right") Los eventos en la programación son acciones que se ejecutan cuando los usuarios interactúan con los diferentes elementos de la interfaz de usuario. En la siguiente tabla se describe cada uno de esos elementos.
+    p(data-aos="fade-right").mb-4 Los eventos en la programación son acciones que se ejecutan cuando los usuarios interactúan con los diferentes elementos de la interfaz de usuario. En la siguiente tabla se describe cada uno de esos elementos.
+    .titulo-sexto.color-acento-contenido.mb-3
+      p.mb-0 #[b Tabla 2]
+      p.mb-0 Eventos
     .tabla-b.color-acento-contenido.mb-5(data-aos="fade-left")
       .tabla-b__header
         .row 

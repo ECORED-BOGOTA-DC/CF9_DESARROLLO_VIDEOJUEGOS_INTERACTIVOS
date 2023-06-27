@@ -13,7 +13,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
           )
           .bloque-texto-g__texto.p-5
-            p.mb-0 La programación de los comportamientos de los personajes permitirá definir las diferentes acciones que serán ejecutadas por el personaje cuando el jugador interactúe con los diferentes dispositivos de juego (#[i joystick], teclado, mouse).
+            p.mb-0 La programación de los comportamientos de los personajes permitirá definir las diferentes acciones que serán ejecutadas por el personaje cuando el jugador interactúe con los diferentes dispositivos de juego (#[i joystick], teclado, #[i mouse]).
     .row.align-items-center.mt-4(data-aos="fade-right")
       .col-auto.pe-0
         img(src='@/assets/curso/tema1/ico.svg', style='width: 50px').m-auto
@@ -21,6 +21,9 @@
         h4.mb-0 Input Manager
     p.mt-4(data-aos="fade-down") El Input Manager es una ventana especializada en el motor de desarrollo Unity 3D que permite definir los diferentes ejes (#[i axes]) que se encuentren asociados a las diferentes acciones del juego o personaje.
     p.mb-5 El Input Manager en Unity 3D utiliza los siguientes tipos de controles:
+    .titulo-sexto.color-acento-contenido.mb-3
+      p.mb-0 #[b Tabla 1]
+      p.mb-0 Controles Unity 3D
     .tabla-b.color-acento-contenido.mb-5(data-aos="fade-left")
       .tabla-b__header
         h4.mb-0 Controles Unity 3D
